@@ -1,0 +1,14 @@
+server:
+  port: 9908
+spring:
+  application:
+    name: admin-system
+  datasource:
+    url: jdbc:mysql://localhost:3306/uchung_test?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: uchung
+    password: test1234
+    type: com.alibaba.druid.pool.DruidDataSource
+    init-size: 5
+    min-idle: 5
+    max-active: 20
